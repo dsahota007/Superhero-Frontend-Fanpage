@@ -1,0 +1,597 @@
+/*--------background(COMPLETE!) -----------------------------------*/
+
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.page2-tobey-background{
+    background-image: url(images/page2obey-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.page3-andrew-background{
+    background-image: url(images/page3-andrew.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.page4-tom-background{
+    background-image: url(images/5n9H0r.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+/*----Heaeder (top menu) and footer + TITLE(COMPLETE!)-----------------------*/
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-title h1 {  /*---main Title in page 1----*/
+    text-align: center;
+    font-size: 33px;
+    font-family: monospace; 
+    margin-top: 34px;
+    color: rgb(179, 35, 35);
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+
+header {
+    background-color:rgba(163, 15, 15, 0.619);
+    border-radius:12px;
+    border:solid 4px crimson;
+}
+
+.main-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: outset red;
+
+}
+
+.main-menu li {
+    margin: 5px;
+    position: relative;
+}
+
+.main-menu a {
+    display: block;
+    padding: 6px 20px; 
+    background-color: rgb(38, 38, 96); 
+    color: white; 
+    text-decoration: none;
+    border-radius: 13px;
+    font-family: monospace;
+}
+.main-menu li a:hover{
+    background-color: rgb(36, 114, 182);
+}
+
+.dropdown button {
+    background-color: rgb(38, 38, 96);
+    color: white;
+    padding: 6px 20px; 
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    font-family: monospace;
+}
+.dropdown a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 125px;
+    margin: 10px;
+    white-space: nowrap;
+    font-family: monospace;
+}
+
+.dropdown .contentdd {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    top: 100%;
+    left: 0;
+    
+}
+
+
+.dropdown:hover .contentdd {
+    display: block;
+}
+.dropdown:hover button{
+    background-color: rgb(36, 114, 182);
+}
+.dropdown a:hover{
+    background-color: rgb(31, 106, 172);
+}
+
+.footerbottom {
+    background-color: #7a0f0f;
+    color: white;
+    border-radius: 10-px;
+    text-align: center;
+    padding: 10px;
+    bottom: 0; 
+    width: 100%;    
+    font-family: monospace;
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+}
+.footerbottom small a {
+    text-decoration: none;
+    color: azure;
+    font-family: monospace;    
+
+}
+
+/*-------The INFO peice below header with side pictures(COMPLETE!)-------*/
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image-left {
+    margin-right: 1px;
+}
+
+.intro-image-left img {
+    width: 350px;
+    height: auto;
+}
+
+.intro-para-mainpage{
+    border: 10px outset #0a00cb;
+    border-radius: 20px;
+    font-family: monospace;
+    background-color: #445bd0d9; 
+    color: white;
+    padding: 15px;
+    text-align: center;
+    max-width: 40%;
+    min-width: 45%
+}
+
+.intro-image-right {
+    margin-left: 20px;
+}
+
+.intro-image-right img {
+    width: 350px;
+    height: auto;
+}
+
+/*-------Spiderman showcase on main page on bottom------------------*/
+/*-------------------------tobey-main-page--------------------------*/
+
+.tobey-mainPage img{
+    border: outset rgb(137, 23, 23) 10px;
+    margin-left: 4%;
+    margin-top: 10px;
+    width: 45%;
+    height: 353px;
+    border-radius: 10px;
+    float: left;
+}
+
+.tobey-mainPage-title {
+    text-align: center;  
+    margin-top: 10px ;
+}
+
+.tobey-mainPage-title h1 {
+    font-size: 32px;
+    color: #776bbc; 
+    border-top: 9px double #000000; 
+    padding-top: 13px; 
+    margin-bottom: 10px;
+    text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0);
+    font-family: monospace;
+}
+.tobey-mainPage-title h1:hover{
+    color: #ffffff;
+}
+.tobey-mainPage-title a{
+    text-decoration: none;
+}
+
+.tobey-mainPage-info p{
+    border: 10px outset #0a00cb;
+    padding: 10px; 
+    border-radius: 10px; 
+    background-color: #445bd0d9; 
+    width: 39%;
+    height: 341px;
+    text-align: center; 
+    margin: auto;
+    margin-left: 54%;
+    margin-bottom: 45px;
+    font-family: monospace;
+    color: aliceblue;
+    overflow: hidden;
+    font-size: 1em;
+
+}
+
+/*----------------------andrew-main-page-----------------------*/
+
+
+.andrew-mainPage img{
+    border: outset rgb(137, 23, 23) 10px;
+    margin-left: 7%;
+    margin-top: 10px;
+    margin-right: 3%;
+    width: 42%;
+    height: 353px;
+    border-radius: 10px;
+    float: right;
+}
+
+.andrew-mainPage-title {
+    text-align: center;  
+    margin-top: 10px ;
+}
+
+.andrew-mainPage-title h1 {
+    font-size: 32px;
+    color: #d31a1a; 
+    border-top: 9px double #000000; 
+    padding-top: 13px; 
+    margin-bottom: 10px;
+    text-shadow: -2px -2px 0 rgb(255, 255, 255), 2px -2px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 255, 255), 2px 2px 0 rgb(255, 255, 255);
+    font-family: monospace;
+}
+.andrew-mainPage-title h1:hover{
+    color: #000000;
+}
+.andrew-mainPage-title a{
+    text-decoration: none;
+}
+
+.andrew-mainPage-info p{
+    border: 10px outset #0a00cb;
+    padding: 10px; 
+    border-radius: 10px; 
+    background-color: #445bd0d9; 
+    width: 39%;
+    height: 341px;
+    text-align: center; 
+    margin: auto;
+    margin-left: 4%;
+    margin-bottom: 45px;
+    margin-top: 22px;
+    font-family: monospace;
+    color: aliceblue;
+    overflow: hidden;
+    font-size: 1em;
+}
+
+/*---------------------tom-main-page--------------------------*/
+
+
+.tom-mainPage img{
+    border: outset rgb(137, 23, 23) 10px;
+    margin-left: 4%;
+    margin-top: 22px;
+    width: 45%;
+    height: 353px;
+    border-radius: 10px;
+    float: left;
+}
+
+.tom-mainPage-title {
+    text-align: center;  
+    margin-top: 10px ;
+}
+
+.tom-mainPage-title h1 {
+    font-size: 32px;
+    color: #776bbc; 
+    border-top: double 9px black;
+    padding-top: 13px; 
+    margin-bottom: 9px;
+    text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0);
+    font-family: monospace;
+}
+.tom-mainPage-title h1:hover{
+    color: #ffffff;
+}
+.tom-mainPage-title a{
+    text-decoration: none;
+}
+
+.tom-mainPage-info p{
+    border: 10px outset #0a00cb;
+    padding: 10px; 
+    border-radius: 10px; 
+    background-color: #445bd0d9; 
+    width: 39%;
+    height: 341px;
+    text-align: center; 
+    margin: auto;
+    margin-left: 54%;
+    margin-bottom: 70px;
+    margin-top: 25px;
+    font-family: monospace;
+    color: aliceblue;
+    overflow: hidden;
+    font-size: 0.93em;
+
+}
+
+/*---------------------------------------------------------*/
+/*---------------------PAGE 2 TOBEY -----------------------*/
+/*---------------------------------------------------------*/
+
+.page2-tobey-mainTitle h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.page2-tobey-mainTitle h1 span {
+    font-family:monospace;
+    font-size: 125%;
+    color: #325eff;
+    text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0);
+    border: outset 9px rgb(106, 12, 12);
+    background-color: #951818;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 14px;   
+}
+
+
+.page2-tobey-mainPic img{
+    width: 42%;
+    float: left;
+    border: outset 13px rgb(191, 34, 34);
+    border-radius: 12px;
+    margin-bottom: 45px;
+    margin-left: 3%;
+}
+
+.page2-tobey-mainAttributes-List p{
+    color: #ffffff;
+    max-width:40%;
+    border: outset 6px rgb(9, 31, 140);
+    border-radius: 8px;
+    background-color: rgba(73, 48, 174, 0.717);
+    padding: 4px;
+    margin-right: 3% ;
+    font-family: monospace;
+    font-size: 1.25em;
+}
+
+.page2-tobey-mainAttributes-List ol {
+    color: #ffffff;
+    max-width:96%;
+    border: outset 6px rgb(121, 0, 0);
+    border-radius: 8px;
+    background-color: rgba(174, 48, 48, 0.717);
+    padding: 4px;
+    margin-right: 4%;
+    list-style:none;
+    font-family: monospace;
+
+}
+
+.page2-outside-List-box{
+    width:40%;
+    float:right;
+    border: outset 13px rgb(29, 82, 167);
+    border-radius: 12px;
+    background-color: #203c89a6;
+    margin-right: 3% ;
+    padding: 10px;
+}
+
+.page2-tobey-mainInfo{
+    color: white;
+    background-color: #681010a6;
+    border: outset 13px rgb(198, 26, 26);
+    border-radius: 12px;
+    width: 38%;
+    padding: 23px;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    margin-left: 3.5%;
+    text-align: center;
+    font-family: monospace;
+}
+
+/*-----All Appearences Code for the TILE in each box-----*/
+
+.big-Title{
+    font-size: 1.5em;
+    font-family: monospace;
+}
+
+/*-----All Appearences Code For Tobey ---------------*/
+
+
+
+
+.page2-tobey-all-appearence-main-title {
+    text-align: center;  
+    margin-top: 67px ;
+}
+
+.page2-tobey-all-appearence-main-title h1 {
+    font-size: 32px;
+    color: #776bbc; 
+    border-top: 9px double #000000; 
+    padding-top: 53px; 
+    margin-bottom: 55px;
+    text-shadow: -2px -2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0);
+    font-family: monospace;
+}
+
+.page2-tobey-spiderman1-appearence-image img{
+    border: outset rgb(137, 23, 23) 10px;
+    margin-left: 4%;
+    margin-top: 10px;
+    width: 45%;
+    height: 353px;
+    border-radius: 10px;
+    float: left;
+}
+
+.page2-tobey-spiderman1-appearence-info p{
+    border: 10px outset #0a00cb;
+    padding: 10px; 
+    border-radius: 10px; 
+    background-color: #445bd0d9; 
+    width: 39%;
+    height: 341px;
+    text-align: center; 
+    margin: auto;
+    margin-left: 54%;
+    margin-bottom: 45px;
+    font-family: monospace;
+    color: aliceblue;
+    overflow: hidden;
+    font-size: 1em;
+
+}
+
+.page2-tobey-spiderman2-appearence-image img{
+    border: outset rgb(137, 23, 23) 10px;
+    margin-left: 7%;
+    margin-top: 10px;
+    margin-right: 3%;
+    width: 42%;
+    height: 353px;
+    border-radius: 10px;
+    float: right;
+}
+
+
+.page2-tobey-spiderman2-appearence-info p{
+    border: 10px outset #0a00cb;
+    padding: 10px; 
+    border-radius: 10px; 
+    background-color: #445bd0d9; 
+    width: 39%;
+    height: 341px;
+    text-align: center; 
+    margin: auto;
+    margin-left: 4%;
+    margin-bottom: 45px;
+    margin-top: 22px;
+    font-family: monospace;
+    color: aliceblue;
+    overflow: hidden;
+    font-size: 1em;
+}
+
+.page2-tobey-spiderman3-appearence-image img{
+    border: outset rgb(137, 23, 23) 10px;
+    margin-left: 4%;
+    margin-top: 10px;
+    width: 45%;
+    height: 353px;
+    border-radius: 10px;
+    float: left;
+}
+
+.page2-tobey-spiderman3-appearence-info p{
+    border: 10px outset #0a00cb;
+    padding: 10px; 
+    border-radius: 10px; 
+    background-color: #445bd0d9; 
+    width: 39%;
+    height: 341px;
+    text-align: center; 
+    margin: auto;
+    margin-left: 54%;
+    margin-bottom: 45px;
+    font-family: monospace;
+    color: aliceblue;
+    overflow: hidden;
+    font-size: 1em;
+
+}
+
+.page2-tobey-spidermanNWH-appearence-image img{
+    border: outset rgb(137, 23, 23) 10px;
+    margin-left: 7%;
+    margin-top: 23px;
+    margin-right:9%;
+    width: 32%;
+    height: 353px;
+    border-radius: 10px;
+    float: right;
+}
+
+
+.page2-tobey-spidermanNWH-appearence-info p{
+    border: 10px outset #0a00cb;
+    padding: 10px; 
+    border-radius: 10px; 
+    background-color: #445bd0d9; 
+    width: 39%;
+    height: 341px;
+    text-align: center; 
+    margin: auto;
+    margin-left: 5%;
+    margin-bottom: 45px;
+    margin-top: 62px;
+    font-family: monospace;
+    color: aliceblue;
+    overflow: hidden;
+    font-size: 1em;
+}
+
+
+/*---------------------------------------------------------*/
+/*---------------------PAGE 3 ANDREW BELOW ----------------*/
+/*---------------------------------------------------------*/
+
+.page3-andrew-mainPic img{
+    width: 42%;
+    height: 454px;
+    float: left;
+    border: outset 13px rgb(191, 34, 34);
+    border-radius: 12px;
+    margin-bottom: 45px;
+    margin-left: 3%;
+}
+
+
+/*---------------------------------------------------------*/
+/*---------------------PAGE 4 TOM BELOW -------------------*/
+/*---------------------------------------------------------*/
+
+.page4-tom-mainPic img{
+    width: 42%;
+    height: 780px;
+    float: left;
+    border: outset 13px rgb(191, 34, 34);
+    border-radius: 12px;
+    margin-bottom: 45px;
+    margin-left: 3%;
+}
